@@ -1,5 +1,6 @@
 # LinkageTableViewDemo
-一款可多级联动的楼盘表demo
+一款可多级联动的楼盘表demo，可上下左右联动，可进行手势捏合进行缩放，支持快速定位。主要实现原理为UITableView或UICollectionView的灵活嵌套及运用。
+* 注：尽量用真机调试，模拟器部分页面有可能会显示失常！
 
 ![](https://github.com/hi-zhouyn/LinkageTableViewDemo/raw/master/GIF/联动.gif)  
 ![](https://github.com/hi-zhouyn/LinkageTableViewDemo/raw/master/GIF/缩放.gif)  
