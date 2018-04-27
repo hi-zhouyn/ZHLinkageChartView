@@ -3,6 +3,6 @@
 
 ![](https://github.com/hi-zhouyn/LinkageTableViewDemo/raw/master/GIF/联动.gif)  
 ![](https://github.com/hi-zhouyn/LinkageTableViewDemo/raw/master/GIF/缩放.gif)  
-![](https://github.com/hi-zhouyn/LinkageTableViewDemo/raw/master/LinkageTableViewDemo/层.gif)  
-![](https://github.com/hi-zhouyn/LinkageTableViewDemo/raw/master/LinkageTableViewDemo/合同信息.gif)  
-![](https://github.com/hi-zhouyn/LinkageTableViewDemo/raw/master/LinkageTableViewDemo/房屋详细信息.gif)  
+![](https://github.com/hi-zhouyn/LinkageTableViewDemo/raw/master/GIF/层.gif)  
+![](https://github.com/hi-zhouyn/LinkageTableViewDemo/raw/master/GIF/合同信息.gif)  
+![](https://github.com/hi-zhouyn/LinkageTableViewDemo/raw/master/GIF/房屋详细信息.gif)  
