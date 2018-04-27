@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>num</key>
+		<string>序号</string>
+		<key>date</key>
+		<string>变更时间</string>
+		<key>beforechange</key>
+		<string>变更前的不动产单元号</string>
+		<key>changed</key>
+		<string>变更后的不动产单元号</string>
+	</dict>
+	<dict>
+		<key>num</key>
+		<string>1</string>
+		<key>date</key>
+		<string>2018-04-25 09:59:58</string>
+		<key>beforechange</key>
+		<string>45487844sa454w878dw5dw1545</string>
+		<key>changed</key>
+		<string>454w54e5w4w5d45a12da4d8w78</string>
+	</dict>
+	<dict>
+		<key>num</key>
+		<string>2</string>
+		<key>date</key>
+		<string>2018-04-25 09:59:58</string>
+		<key>beforechange</key>
+		<string>45487844sa454w878dw5dw1545</string>
+		<key>changed</key>
+		<string>454w54e5w4w5d45a12da4d8w78</string>
+	</dict>
+	<dict>
+		<key>num</key>
+		<string>3</string>
+		<key>date</key>
+		<string>2018-04-25 09:59:58</string>
+		<key>beforechange</key>
+		<string>45487844sa454w878dw5dw1545</string>
+		<key>changed</key>
+		<string>454w54e5w4w5d45a12da4d8w78</string>
+	</dict>
+	<dict>
+		<key>num</key>
+		<string>4</string>
+		<key>date</key>
+		<string>2018-04-25 09:59:58</string>
+		<key>beforechange</key>
+		<string>45487844sa454w878dw5dw1545</string>
+		<key>changed</key>
+		<string>454w54e5w4w5d45a12da4d8w78</string>
+	</dict>
+	<dict>
+		<key>num</key>
+		<string>5</string>
+		<key>date</key>
+		<string>2018-04-25 09:59:58</string>
+		<key>beforechange</key>
+		<string>45487844sa454w878dw5dw1545</string>
+		<key>changed</key>
+		<string>454w54e5w4w5d45a12da4d8w78</string>
+	</dict>
+	<dict>
+		<key>num</key>
+		<string>6</string>
+		<key>date</key>
+		<string>2018-04-25 09:59:58</string>
+		<key>beforechange</key>
+		<string>45487844sa454w878dw5dw1545</string>
+		<key>changed</key>
+		<string>454w54e5w4w5d45a12da4d8w78</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>新建商品房销售状态</string>
+		<key>info</key>
+		<array>
+			<string>房屋预售许可</string>
+			<string>房屋预售签约</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>其他状态</string>
+		<key>info</key>
+		<array/>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>房屋权属状态</string>
+		<key>info</key>
+		<array>
+			<string>房屋预售</string>
+			<string>预售签约</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>房屋限制状态</string>
+		<key>info</key>
+		<array>
+			<string>房屋预售许可</string>
+			<string>房屋预售签约</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>存量房销售状态</string>
+		<key>info</key>
+		<array>
+			<string>房屋预售许可</string>
+			<string>房屋预售签约</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>维修资金缴存状态</string>
+		<key>info</key>
+		<array>
+			<string>维修资金首次归集补缴</string>
+		</array>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>房屋交易与产权档案管理</string>
+		<key>info</key>
+		<array>
+			<string>房屋预售许可</string>
+			<string>房屋预售签约</string>
+		</array>
+	</dict>
+</array>
+</plist>
