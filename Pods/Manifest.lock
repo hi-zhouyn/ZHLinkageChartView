@@ -1,12 +1,18 @@
 PODS:
+  - LinqToObjectiveC (2.1.0)
   - Masonry (1.1.0)
+  - MJExtension (3.0.15.1)
 
 DEPENDENCIES:
+  - LinqToObjectiveC
   - Masonry (~> 1.1.0)
+  - MJExtension (~> 3.0.10)
 
 SPEC CHECKSUMS:
+  LinqToObjectiveC: f0e40c137a458b6b9725c4c7b6a575c0c72e3aec
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
 
-PODFILE CHECKSUM: b7e357469f4d3af7ccece69361856efc1a9b0eb8
+PODFILE CHECKSUM: 50981d0964567a425f80ab0ca8a3512aa423a9f6
 
 COCOAPODS: 1.4.0

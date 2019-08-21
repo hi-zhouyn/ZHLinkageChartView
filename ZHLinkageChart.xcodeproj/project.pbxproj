@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50A7C3B7230407E100DFFC96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7C3B6230407E100DFFC96 /* AppDelegate.m */; };
+		50A7C3BA230407E100DFFC96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7C3B9230407E100DFFC96 /* ViewController.m */; };
+		50A7C3BD230407E100DFFC96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A7C3BB230407E100DFFC96 /* Main.storyboard */; };
+		50A7C3BF230407E300DFFC96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A7C3BE230407E300DFFC96 /* Assets.xcassets */; };
+		50A7C3C2230407E300DFFC96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A7C3C0230407E300DFFC96 /* LaunchScreen.storyboard */; };
+		50A7C3C5230407E300DFFC96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7C3C4230407E300DFFC96 /* main.m */; };
+		50A7C3CF230407E300DFFC96 /* ZHLinkageChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7C3CE230407E300DFFC96 /* ZHLinkageChartTests.m */; };
+		50A7C3DA230407E300DFFC96 /* ZHLinkageChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7C3D9230407E300DFFC96 /* ZHLinkageChartUITests.m */; };
+		50A7C3EA230408A000DFFC96 /* TopSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7C3E72304089F00DFFC96 /* TopSelectView.m */; };
+		50A7C3EB230408A000DFFC96 /* layer.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 50A7C3E8230408A000DFFC96 /* layer.geojson */; };
+		50A7C3EF230408EF00DFFC96 /* ZHLinkageChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7C3EE230408EF00DFFC96 /* ZHLinkageChartView.m */; };
+		50A7C3F82304091A00DFFC96 /* ZHBgCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7C3F02304091900DFFC96 /* ZHBgCollectionViewCell.m */; };
+		50A7C3F92304091A00DFFC96 /* ZHTitleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7C3F22304091A00DFFC96 /* ZHTitleCollectionViewCell.m */; };
+		50A7C3FA2304091A00DFFC96 /* ZHItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7C3F32304091A00DFFC96 /* ZHItemModel.m */; };
+		50A7C3FB2304091A00DFFC96 /* ZHItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7C3F42304091A00DFFC96 /* ZHItemCollectionViewCell.m */; };
+		CFBE6270FB9B7A30640B1358 /* libPods-ZHLinkageChart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97A46FC6FC389B22DD3E6558 /* libPods-ZHLinkageChart.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50A7C3CB230407E300DFFC96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50A7C3AA230407E100DFFC96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A7C3B1230407E100DFFC96;
+			remoteInfo = ZHLinkageChart;
+		};
+		50A7C3D6230407E300DFFC96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50A7C3AA230407E100DFFC96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50A7C3B1230407E100DFFC96;
+			remoteInfo = ZHLinkageChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10C6665B9866B5DB26518179 /* Pods-ZHLinkageChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHLinkageChart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHLinkageChart/Pods-ZHLinkageChart.debug.xcconfig"; sourceTree = "<group>"; };
+		50A7C3B2230407E100DFFC96 /* ZHLinkageChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHLinkageChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A7C3B5230407E100DFFC96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50A7C3B6230407E100DFFC96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50A7C3B8230407E100DFFC96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50A7C3B9230407E100DFFC96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50A7C3BC230407E100DFFC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50A7C3BE230407E300DFFC96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50A7C3C1230407E300DFFC96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50A7C3C3230407E300DFFC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A7C3C4230407E300DFFC96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50A7C3CA230407E300DFFC96 /* ZHLinkageChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHLinkageChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A7C3CE230407E300DFFC96 /* ZHLinkageChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHLinkageChartTests.m; sourceTree = "<group>"; };
+		50A7C3D0230407E300DFFC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A7C3D5230407E300DFFC96 /* ZHLinkageChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHLinkageChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A7C3D9230407E300DFFC96 /* ZHLinkageChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHLinkageChartUITests.m; sourceTree = "<group>"; };
+		50A7C3DB230407E300DFFC96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A7C3E72304089F00DFFC96 /* TopSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopSelectView.m; sourceTree = "<group>"; };
+		50A7C3E8230408A000DFFC96 /* layer.geojson */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = layer.geojson; sourceTree = "<group>"; };
+		50A7C3E9230408A000DFFC96 /* TopSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopSelectView.h; sourceTree = "<group>"; };
+		50A7C3ED230408EF00DFFC96 /* ZHLinkageChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHLinkageChartView.h; sourceTree = "<group>"; };
+		50A7C3EE230408EF00DFFC96 /* ZHLinkageChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHLinkageChartView.m; sourceTree = "<group>"; };
+		50A7C3F02304091900DFFC96 /* ZHBgCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHBgCollectionViewCell.m; sourceTree = "<group>"; };
+		50A7C3F12304091900DFFC96 /* ZHBgCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHBgCollectionViewCell.h; sourceTree = "<group>"; };
+		50A7C3F22304091A00DFFC96 /* ZHTitleCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHTitleCollectionViewCell.m; sourceTree = "<group>"; };
+		50A7C3F32304091A00DFFC96 /* ZHItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHItemModel.m; sourceTree = "<group>"; };
+		50A7C3F42304091A00DFFC96 /* ZHItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHItemCollectionViewCell.m; sourceTree = "<group>"; };
+		50A7C3F52304091A00DFFC96 /* ZHItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHItemModel.h; sourceTree = "<group>"; };
+		50A7C3F62304091A00DFFC96 /* ZHTitleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHTitleCollectionViewCell.h; sourceTree = "<group>"; };
+		50A7C3F72304091A00DFFC96 /* ZHItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHItemCollectionViewCell.h; sourceTree = "<group>"; };
+		8C1A8E947D79EB3D465ECAE5 /* Pods-ZHLinkageChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHLinkageChart.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHLinkageChart/Pods-ZHLinkageChart.release.xcconfig"; sourceTree = "<group>"; };
+		97A46FC6FC389B22DD3E6558 /* libPods-ZHLinkageChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHLinkageChart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50A7C3AF230407E100DFFC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBE6270FB9B7A30640B1358 /* libPods-ZHLinkageChart.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A7C3C7230407E300DFFC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A7C3D2230407E300DFFC96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50A7C3A9230407E100DFFC96 = {
+			isa = PBXGroup;
+			children = (
+				50A7C3B4230407E100DFFC96 /* ZHLinkageChart */,
+				50A7C3CD230407E300DFFC96 /* ZHLinkageChartTests */,
+				50A7C3D8230407E300DFFC96 /* ZHLinkageChartUITests */,
+				50A7C3B3230407E100DFFC96 /* Products */,
+				EB2A016511D7D0792437F91C /* Pods */,
+				D757E66611E14CA00B7DFF78 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50A7C3B3230407E100DFFC96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50A7C3B2230407E100DFFC96 /* ZHLinkageChart.app */,
+				50A7C3CA230407E300DFFC96 /* ZHLinkageChartTests.xctest */,
+				50A7C3D5230407E300DFFC96 /* ZHLinkageChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50A7C3B4230407E100DFFC96 /* ZHLinkageChart */ = {
+			isa = PBXGroup;
+			children = (
+				50A7C3EC230408BD00DFFC96 /* ZHLinkageChart */,
+				50A7C3B5230407E100DFFC96 /* AppDelegate.h */,
+				50A7C3B6230407E100DFFC96 /* AppDelegate.m */,
+				50A7C3B8230407E100DFFC96 /* ViewController.h */,
+				50A7C3B9230407E100DFFC96 /* ViewController.m */,
+				50A7C3E9230408A000DFFC96 /* TopSelectView.h */,
+				50A7C3E72304089F00DFFC96 /* TopSelectView.m */,
+				50A7C3E8230408A000DFFC96 /* layer.geojson */,
+				50A7C3BB230407E100DFFC96 /* Main.storyboard */,
+				50A7C3BE230407E300DFFC96 /* Assets.xcassets */,
+				50A7C3C0230407E300DFFC96 /* LaunchScreen.storyboard */,
+				50A7C3C3230407E300DFFC96 /* Info.plist */,
+				50A7C3C4230407E300DFFC96 /* main.m */,
+			);
+			path = ZHLinkageChart;
+			sourceTree = "<group>";
+		};
+		50A7C3CD230407E300DFFC96 /* ZHLinkageChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				50A7C3CE230407E300DFFC96 /* ZHLinkageChartTests.m */,
+				50A7C3D0230407E300DFFC96 /* Info.plist */,
+			);
+			path = ZHLinkageChartTests;
+			sourceTree = "<group>";
+		};
+		50A7C3D8230407E300DFFC96 /* ZHLinkageChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50A7C3D9230407E300DFFC96 /* ZHLinkageChartUITests.m */,
+				50A7C3DB230407E300DFFC96 /* Info.plist */,
+			);
+			path = ZHLinkageChartUITests;
+			sourceTree = "<group>";
+		};
+		50A7C3EC230408BD00DFFC96 /* ZHLinkageChart */ = {
+			isa = PBXGroup;
+			children = (
+				50A7C3ED230408EF00DFFC96 /* ZHLinkageChartView.h */,
+				50A7C3EE230408EF00DFFC96 /* ZHLinkageChartView.m */,
+				50A7C3F12304091900DFFC96 /* ZHBgCollectionViewCell.h */,
+				50A7C3F02304091900DFFC96 /* ZHBgCollectionViewCell.m */,
+				50A7C3F72304091A00DFFC96 /* ZHItemCollectionViewCell.h */,
+				50A7C3F42304091A00DFFC96 /* ZHItemCollectionViewCell.m */,
+				50A7C3F62304091A00DFFC96 /* ZHTitleCollectionViewCell.h */,
+				50A7C3F22304091A00DFFC96 /* ZHTitleCollectionViewCell.m */,
+				50A7C3F52304091A00DFFC96 /* ZHItemModel.h */,
+				50A7C3F32304091A00DFFC96 /* ZHItemModel.m */,
+			);
+			path = ZHLinkageChart;
+			sourceTree = "<group>";
+		};
+		D757E66611E14CA00B7DFF78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97A46FC6FC389B22DD3E6558 /* libPods-ZHLinkageChart.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB2A016511D7D0792437F91C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10C6665B9866B5DB26518179 /* Pods-ZHLinkageChart.debug.xcconfig */,
+				8C1A8E947D79EB3D465ECAE5 /* Pods-ZHLinkageChart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50A7C3B1230407E100DFFC96 /* ZHLinkageChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A7C3DE230407E300DFFC96 /* Build configuration list for PBXNativeTarget "ZHLinkageChart" */;
+			buildPhases = (
+				8F7DBA25C02C22F5DC094E84 /* [CP] Check Pods Manifest.lock */,
+				50A7C3AE230407E100DFFC96 /* Sources */,
+				50A7C3AF230407E100DFFC96 /* Frameworks */,
+				50A7C3B0230407E100DFFC96 /* Resources */,
+				10FEE30816792CF0FDCE9B0B /* [CP] Embed Pods Frameworks */,
+				907F65335C0161D63DAC8854 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHLinkageChart;
+			productName = ZHLinkageChart;
+			productReference = 50A7C3B2230407E100DFFC96 /* ZHLinkageChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50A7C3C9230407E300DFFC96 /* ZHLinkageChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A7C3E1230407E300DFFC96 /* Build configuration list for PBXNativeTarget "ZHLinkageChartTests" */;
+			buildPhases = (
+				50A7C3C6230407E300DFFC96 /* Sources */,
+				50A7C3C7230407E300DFFC96 /* Frameworks */,
+				50A7C3C8230407E300DFFC96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50A7C3CC230407E300DFFC96 /* PBXTargetDependency */,
+			);
+			name = ZHLinkageChartTests;
+			productName = ZHLinkageChartTests;
+			productReference = 50A7C3CA230407E300DFFC96 /* ZHLinkageChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50A7C3D4230407E300DFFC96 /* ZHLinkageChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A7C3E4230407E300DFFC96 /* Build configuration list for PBXNativeTarget "ZHLinkageChartUITests" */;
+			buildPhases = (
+				50A7C3D1230407E300DFFC96 /* Sources */,
+				50A7C3D2230407E300DFFC96 /* Frameworks */,
+				50A7C3D3230407E300DFFC96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50A7C3D7230407E300DFFC96 /* PBXTargetDependency */,
+			);
+			name = ZHLinkageChartUITests;
+			productName = ZHLinkageChartUITests;
+			productReference = 50A7C3D5230407E300DFFC96 /* ZHLinkageChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50A7C3AA230407E100DFFC96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Zhou;
+				TargetAttributes = {
+					50A7C3B1230407E100DFFC96 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					50A7C3C9230407E300DFFC96 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 50A7C3B1230407E100DFFC96;
+					};
+					50A7C3D4230407E300DFFC96 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 50A7C3B1230407E100DFFC96;
+					};
+				};
+			};
+			buildConfigurationList = 50A7C3AD230407E100DFFC96 /* Build configuration list for PBXProject "ZHLinkageChart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50A7C3A9230407E100DFFC96;
+			productRefGroup = 50A7C3B3230407E100DFFC96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50A7C3B1230407E100DFFC96 /* ZHLinkageChart */,
+				50A7C3C9230407E300DFFC96 /* ZHLinkageChartTests */,
+				50A7C3D4230407E300DFFC96 /* ZHLinkageChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50A7C3B0230407E100DFFC96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A7C3C2230407E300DFFC96 /* LaunchScreen.storyboard in Resources */,
+				50A7C3EB230408A000DFFC96 /* layer.geojson in Resources */,
+				50A7C3BF230407E300DFFC96 /* Assets.xcassets in Resources */,
+				50A7C3BD230407E100DFFC96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A7C3C8230407E300DFFC96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A7C3D3230407E300DFFC96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10FEE30816792CF0FDCE9B0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHLinkageChart/Pods-ZHLinkageChart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F7DBA25C02C22F5DC094E84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZHLinkageChart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		907F65335C0161D63DAC8854 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZHLinkageChart/Pods-ZHLinkageChart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50A7C3AE230407E100DFFC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A7C3F92304091A00DFFC96 /* ZHTitleCollectionViewCell.m in Sources */,
+				50A7C3EA230408A000DFFC96 /* TopSelectView.m in Sources */,
+				50A7C3FA2304091A00DFFC96 /* ZHItemModel.m in Sources */,
+				50A7C3F82304091A00DFFC96 /* ZHBgCollectionViewCell.m in Sources */,
+				50A7C3BA230407E100DFFC96 /* ViewController.m in Sources */,
+				50A7C3FB2304091A00DFFC96 /* ZHItemCollectionViewCell.m in Sources */,
+				50A7C3C5230407E300DFFC96 /* main.m in Sources */,
+				50A7C3B7230407E100DFFC96 /* AppDelegate.m in Sources */,
+				50A7C3EF230408EF00DFFC96 /* ZHLinkageChartView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A7C3C6230407E300DFFC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A7C3CF230407E300DFFC96 /* ZHLinkageChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50A7C3D1230407E300DFFC96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A7C3DA230407E300DFFC96 /* ZHLinkageChartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50A7C3CC230407E300DFFC96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50A7C3B1230407E100DFFC96 /* ZHLinkageChart */;
+			targetProxy = 50A7C3CB230407E300DFFC96 /* PBXContainerItemProxy */;
+		};
+		50A7C3D7230407E300DFFC96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50A7C3B1230407E100DFFC96 /* ZHLinkageChart */;
+			targetProxy = 50A7C3D6230407E300DFFC96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50A7C3BB230407E100DFFC96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A7C3BC230407E100DFFC96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50A7C3C0230407E300DFFC96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A7C3C1230407E300DFFC96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50A7C3DC230407E300DFFC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50A7C3DD230407E300DFFC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50A7C3DF230407E300DFFC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10C6665B9866B5DB26518179 /* Pods-ZHLinkageChart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8H6HKVCBR9;
+				INFOPLIST_FILE = ZHLinkageChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyn.ZHLinkageChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50A7C3E0230407E300DFFC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C1A8E947D79EB3D465ECAE5 /* Pods-ZHLinkageChart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8H6HKVCBR9;
+				INFOPLIST_FILE = ZHLinkageChart/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyn.ZHLinkageChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50A7C3E2230407E300DFFC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8H6HKVCBR9;
+				INFOPLIST_FILE = ZHLinkageChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyn.ZHLinkageChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHLinkageChart.app/ZHLinkageChart";
+			};
+			name = Debug;
+		};
+		50A7C3E3230407E300DFFC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8H6HKVCBR9;
+				INFOPLIST_FILE = ZHLinkageChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyn.ZHLinkageChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZHLinkageChart.app/ZHLinkageChart";
+			};
+			name = Release;
+		};
+		50A7C3E5230407E300DFFC96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8H6HKVCBR9;
+				INFOPLIST_FILE = ZHLinkageChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyn.ZHLinkageChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZHLinkageChart;
+			};
+			name = Debug;
+		};
+		50A7C3E6230407E300DFFC96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8H6HKVCBR9;
+				INFOPLIST_FILE = ZHLinkageChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyn.ZHLinkageChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZHLinkageChart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50A7C3AD230407E100DFFC96 /* Build configuration list for PBXProject "ZHLinkageChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A7C3DC230407E300DFFC96 /* Debug */,
+				50A7C3DD230407E300DFFC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A7C3DE230407E300DFFC96 /* Build configuration list for PBXNativeTarget "ZHLinkageChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A7C3DF230407E300DFFC96 /* Debug */,
+				50A7C3E0230407E300DFFC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A7C3E1230407E300DFFC96 /* Build configuration list for PBXNativeTarget "ZHLinkageChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A7C3E2230407E300DFFC96 /* Debug */,
+				50A7C3E3230407E300DFFC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A7C3E4230407E300DFFC96 /* Build configuration list for PBXNativeTarget "ZHLinkageChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A7C3E5230407E300DFFC96 /* Debug */,
+				50A7C3E6230407E300DFFC96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50A7C3AA230407E100DFFC96 /* Project object */;
+}
