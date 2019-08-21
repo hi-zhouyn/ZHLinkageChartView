@@ -7,7 +7,8 @@
 * 支持表格上下任意合并
 
 #### 文档
-* 更详细了解可以查看[详细文章](https://www.jianshu.com/u/040037a3eaad)
+* 更详细了解可以查看[详细文章](https://www.jianshu.com/p/7ffacc6783a5)
 
 #### 预览
-![](https://github.com/hi-zhouyn/ZHLinkageChartView/raw/master/GIF/联动.gif)  
+![](https://github.com/hi-zhouyn/ZHLinkageChartView/raw/master/image/表格.jpeg)  
+![](https://github.com/hi-zhouyn/ZHLinkageChartView/raw/master/image/联动.gif)  
