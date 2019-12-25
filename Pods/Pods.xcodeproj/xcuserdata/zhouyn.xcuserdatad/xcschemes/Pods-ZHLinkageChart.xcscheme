@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5BDCF24666F65E2EEF390D30406979A5"
+               BlueprintIdentifier = "BA83B8B27D0AC4A8582BAEB1CF52C0B5"
                BlueprintName = "Pods-ZHLinkageChart"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-ZHLinkageChart.a">
+               BuildableName = "Pods-ZHLinkageChart.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

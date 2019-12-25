@@ -22,7 +22,7 @@
 		50A7C3F92304091A00DFFC96 /* ZHTitleCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7C3F22304091A00DFFC96 /* ZHTitleCollectionViewCell.m */; };
 		50A7C3FA2304091A00DFFC96 /* ZHItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7C3F32304091A00DFFC96 /* ZHItemModel.m */; };
 		50A7C3FB2304091A00DFFC96 /* ZHItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7C3F42304091A00DFFC96 /* ZHItemCollectionViewCell.m */; };
-		CFBE6270FB9B7A30640B1358 /* libPods-ZHLinkageChart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97A46FC6FC389B22DD3E6558 /* libPods-ZHLinkageChart.a */; };
+		52905B4DCBF6CD416AA9DD0D /* Pods_ZHLinkageChart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A33E44AB28AB9D663A7B814 /* Pods_ZHLinkageChart.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,8 +73,8 @@
 		50A7C3F52304091A00DFFC96 /* ZHItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHItemModel.h; sourceTree = "<group>"; };
 		50A7C3F62304091A00DFFC96 /* ZHTitleCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHTitleCollectionViewCell.h; sourceTree = "<group>"; };
 		50A7C3F72304091A00DFFC96 /* ZHItemCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHItemCollectionViewCell.h; sourceTree = "<group>"; };
+		8A33E44AB28AB9D663A7B814 /* Pods_ZHLinkageChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHLinkageChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1A8E947D79EB3D465ECAE5 /* Pods-ZHLinkageChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHLinkageChart.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHLinkageChart/Pods-ZHLinkageChart.release.xcconfig"; sourceTree = "<group>"; };
-		97A46FC6FC389B22DD3E6558 /* libPods-ZHLinkageChart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHLinkageChart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFBE6270FB9B7A30640B1358 /* libPods-ZHLinkageChart.a in Frameworks */,
+				52905B4DCBF6CD416AA9DD0D /* Pods_ZHLinkageChart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +183,7 @@
 		D757E66611E14CA00B7DFF78 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				97A46FC6FC389B22DD3E6558 /* libPods-ZHLinkageChart.a */,
+				8A33E44AB28AB9D663A7B814 /* Pods_ZHLinkageChart.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -333,9 +333,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZHLinkageChart/Pods-ZHLinkageChart-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LinqToObjectiveC/LinqToObjectiveC.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LinqToObjectiveC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -566,10 +573,7 @@
 				DEVELOPMENT_TEAM = 8H6HKVCBR9;
 				INFOPLIST_FILE = ZHLinkageChart/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyn.ZHLinkageChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -585,10 +589,7 @@
 				DEVELOPMENT_TEAM = 8H6HKVCBR9;
 				INFOPLIST_FILE = ZHLinkageChart/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyn.ZHLinkageChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -602,11 +603,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8H6HKVCBR9;
 				INFOPLIST_FILE = ZHLinkageChartTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyn.ZHLinkageChartTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -621,11 +618,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8H6HKVCBR9;
 				INFOPLIST_FILE = ZHLinkageChartTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyn.ZHLinkageChartTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -639,11 +632,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8H6HKVCBR9;
 				INFOPLIST_FILE = ZHLinkageChartUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyn.ZHLinkageChartUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -657,11 +646,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8H6HKVCBR9;
 				INFOPLIST_FILE = ZHLinkageChartUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhouyn.ZHLinkageChartUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
