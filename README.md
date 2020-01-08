@@ -5,8 +5,8 @@
 * swift语言版本可以查看[ZHLinkageChart-swift](https://github.com/hi-zhouyn/ZHLinkageChart-swift)
   
 ## 支持功能
-* 支持多向联动
-* 支持行列任意拓展
+* 支持上下左右多向联动
+* 支持行列无限拓展
 * 支持表格上下任意合并
 
 ## 文档
