@@ -41,7 +41,7 @@ ZHBgCollectionViewCellDelegate>
 - (void)setDataArr:(NSMutableArray *)dataArr
 {
     _dataArr = dataArr;
-    self.refreshCount = ceil((KSCREEN_WIDTH - KITEMWIDTH - KSPACE - KLINESPACE * 2) / (KITEMWIDTH * dataArr.count) + KSPACE);
+    self.refreshCount = ceil((KSCREEN_WIDTH - KITEMWIDTH - KSPACE - KLINESPACE * 2) / (KITEMWIDTH + KSPACE));
 }
 
 /** 快速选择 */
